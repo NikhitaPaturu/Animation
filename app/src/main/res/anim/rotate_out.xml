@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<alpha android:fromAlpha="0.0" android:toAlpha="1.0" android:duration="300" />
+    <rotate android:fromDegrees="0" android:toDegrees="90" android:pivotX="25%" />
+-->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" >
+    </objectAnimator>
+
+</set>
